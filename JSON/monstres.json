@@ -1,0 +1,16 @@
+[
+  { "id": 1,    "nom": "gobelin",          "tier": "faible",   "pv":  80,   "attaque": 12,   "defense":  4 },
+  { "id": 2,    "nom": "squelette",        "tier": "faible",   "pv":  75,   "attaque": 15,   "defense":  8 },
+  { "id": 3,    "nom": "loup",             "tier": "faible",   "pv":  90,   "attaque": 18,   "defense":  3 },
+  { "id": 4,    "nom": "brigand",          "tier": "faible",   "pv": 100,   "attaque": 20,   "defense":  6 },
+  { "id": 5,    "nom": "troll",            "tier": "moyen",    "pv": 220,   "attaque": 28,   "defense": 15 },
+  { "id": 6,    "nom": "ogre",             "tier": "moyen",    "pv": 260,   "attaque": 32,   "defense": 12 },
+  { "id": 7,    "nom": "sorcier noir",     "tier": "moyen",    "pv": 180,   "attaque": 38,   "defense": 10 },
+  { "id": 8,    "nom": "golem de roche",   "tier": "moyen",    "pv": 300,   "attaque": 22,   "defense": 30 },
+  { "id": 9,    "nom": "démon mineur",     "tier": "élite",    "pv": 380,   "attaque": 45,   "defense": 22 },
+  { "id": 10,   "nom": "wyverne",          "tier": "élite",    "pv": 420,   "attaque": 48,   "defense": 18 },
+  { "id": 11,   "nom": "hydre",            "tier": "élite",    "pv": 460,   "attaque": 40,   "defense": 28 },
+  { "id": 12,   "nom": "margit le déchu",  "tier": "boss",     "pv": 600,   "attaque": 58,   "defense": 30 },
+  { "id": 13,   "nom": "dragon ancien",    "tier": "boss",     "pv": 750,   "attaque": 65,   "defense": 40 },
+  { "id": 14,   "nom": "bosse ultime",     "tier": "boss",     "pv": 800,   "attaque": 60,   "defense": 45 }
+]

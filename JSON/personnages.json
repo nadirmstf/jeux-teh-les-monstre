@@ -1,0 +1,12 @@
+[
+  { "id": 1,    "nom": "guerrier",         "pv": 150,   "attaque": 22,    "defense": 28 },
+  { "id": 2,    "nom": "mage",             "pv":  90,   "attaque": 45,    "defense": 12 },
+  { "id": 3,    "nom": "archer",           "pv": 105,   "attaque": 38,    "defense": 10 },
+  { "id": 4,    "nom": "paladin",          "pv": 145,   "attaque": 18,    "defense": 35 },
+  { "id": 5,    "nom": "voleur",           "pv": 100,   "attaque": 40,    "defense":  8 },
+  { "id": 6,    "nom": "clerc",            "pv": 115,   "attaque": 20,    "defense": 25 },
+  { "id": 7,    "nom": "barbare",          "pv": 120,   "attaque": 42,    "defense":  8 },
+  { "id": 8,    "nom": "druide",           "pv": 110,   "attaque": 28,    "defense": 22 },
+  { "id": 9,    "nom": "nécromancien",     "pv":  85,   "attaque": 50,    "defense":  5 },
+  { "id": 10,   "nom": "chevalier",        "pv": 155,   "attaque": 20,    "defense": 32 }
+]
