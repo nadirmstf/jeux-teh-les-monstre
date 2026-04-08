@@ -204,6 +204,7 @@ def attaque_monstres(monstre, personnages_equipe):
         print(f"{monstre['nom']} attaque {personnages['nom']} -> -{degats} PV ({max(0, personnages['pv'])} PV restants)")
         time.sleep(1)
 
+
 def lancement_manche(manche):
     #choix du monstre random
     monstre = random_monstres()
@@ -218,6 +219,7 @@ def lancement_manche(manche):
     time.sleep(1)
     #retourner le monstre
     return monstre
+
 
 def lancer_vagues(equipe):
     personnages_equipe = equipe["personnages"]
