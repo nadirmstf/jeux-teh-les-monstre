@@ -34,7 +34,7 @@ def afficher_meilleurs_scores():
 
 def afficher_menu():
     while True:
-        # os.system("cls" if os.name == "nt" else "clear")
+        os.system("cls" if os.name == "nt" else "clear")
 
         afficher_header("Jeu de Combat")
 
@@ -79,7 +79,7 @@ def choix():
 
             numero = int(numero)
 
-            # Vérifier que le numéro est dans la plage autorisée (ex: 1 à 10)
+            # Vérifier que le numéro est bon
             if numero < 1 or numero > 10:
                 print("Numéro hors plage. Choisissez entre 1 et 10.")
                 continue
@@ -160,7 +160,7 @@ def choisir_personnage(personnages_equipe):
         choix = int(choix)
 
         if choix < 1 or choix > len(vivants):
-            print("Numéro hors plage.")
+            print("veuillez choisir parmis les choix possible.")
             continue
 
         return vivants[choix - 1]
