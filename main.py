@@ -20,7 +20,7 @@ def afficher_header(texte: str):
 
 def afficher_meilleurs_scores():
     # Récupérer les 3 meilleurs scores triés par manches décroissant
-    meilleurs = list(db["scores"].find().sort("manches", -1).limit(3))
+    meilleurs = ...
 
     # Afficher le tableau des meilleurs scores
     afficher_header("! Meilleurs Scores !")
